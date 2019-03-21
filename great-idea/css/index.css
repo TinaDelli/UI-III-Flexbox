@@ -199,7 +199,17 @@ main {
 	border-bottom: 2px solid black; 
 	
 }
-
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+	.services-main {
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: flex-start;  
+	margin-top: 20px;   
+	border-bottom: 2px solid black; }
+}
 .box {
 	width: 400px;
 	height: 250px;
